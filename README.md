@@ -6,14 +6,11 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![PyPI](https://img.shields.io/badge/PyPI-pdf--element--extractor-blue.svg)
 
-<a href="#" onclick="switchLanguage('en'); return false;" id="en-link" style="color: #007bff; text-decoration: none; margin: 0 10px; font-weight: bold;">English</a> | 
-<a href="#" onclick="switchLanguage('zh'); return false;" id="zh-link" style="color: #6c757d; text-decoration: none; margin: 0 10px;">中文</a>
+[English](#english) | [中文](#中文)
 
 </div>
 
 ---
-
-<div id="en-content">
 
 ## English
 
@@ -115,9 +112,7 @@ output_directory/
 └── Page_*_analysis.png  # Page analysis visualizations
 ```
 
-</div>
-
-<div id="zh-content" style="display: none;">
+---
 
 ## 中文
 
@@ -219,40 +214,8 @@ pdf-element-extractor [PDF文件] [选项]
 └── Page_*_analysis.png  # 页面分析可视化
 ```
 
-</div>
-
 ---
 
 ## License / 许可证
 
-MIT License - see LICENSE file for details. / MIT许可证 - 详情请参阅LICENSE文件。
-
-<script>
-function switchLanguage(lang) {
-    const enContent = document.getElementById('en-content');
-    const zhContent = document.getElementById('zh-content');
-    const enLink = document.getElementById('en-link');
-    const zhLink = document.getElementById('zh-link');
-    
-    if (lang === 'en') {
-        enContent.style.display = 'block';
-        zhContent.style.display = 'none';
-        enLink.style.color = '#007bff';
-        enLink.style.fontWeight = 'bold';
-        zhLink.style.color = '#6c757d';
-        zhLink.style.fontWeight = 'normal';
-    } else {
-        enContent.style.display = 'none';
-        zhContent.style.display = 'block';
-        enLink.style.color = '#6c757d';
-        enLink.style.fontWeight = 'normal';
-        zhLink.style.color = '#007bff';
-        zhLink.style.fontWeight = 'bold';
-    }
-}
-
-// Initialize with English
-document.addEventListener('DOMContentLoaded', function() {
-    switchLanguage('en');
-});
-</script> 
+MIT License - see LICENSE file for details. / MIT许可证 - 详情请参阅LICENSE文件。 
