@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf-element-extractor"
+version = "1.0.0"
+description = "A Python package for automatically identifying and extracting Figure and Table elements from PDF documents"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "PDF Element Extractor Team", email = "support@pdf-element-extractor.com"}
+]
+keywords = ["pdf", "extraction", "figure", "table", "document processing", "computer vision"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Markup",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "PyMuPDF>=1.23.0",
+    "Pillow>=9.0.0",
+    "numpy>=1.21.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov>=2.0",
+    "black>=21.0",
+    "flake8>=3.8",
+    "mypy>=0.800",
+]
+
+[project.scripts]
+pdf-element-extractor = "pdf_element_extractor.core.main:main"
+
+[project.urls]
+Homepage = "https://github.com/your-username/pdf-element-extractor"
+Documentation = "https://github.com/your-username/pdf-element-extractor#readme"
+Repository = "https://github.com/your-username/pdf-element-extractor"
+"Bug Tracker" = "https://github.com/your-username/pdf-element-extractor/issues" 

@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include requirements.txt
+include pyproject.toml
+recursive-include pdf_element_extractor *.py
+recursive-include pdf_element_extractor *.md
+recursive-include pdf_element_extractor *.txt
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co] 
