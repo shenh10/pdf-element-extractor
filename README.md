@@ -1,12 +1,20 @@
-# PDF Element Extractor / PDF元素提取器
+# PDF Element Extractor
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![PyPI](https://img.shields.io/badge/PyPI-pdf--element--extractor-blue.svg)
+[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-pdf--element--extractor-blue.svg)](https://pypi.org/project/pdf-element-extractor/)
 
 [English](#english) | [中文](#中文)
+
+</div>
+
+<div align="center">
+
+**A powerful Python package for automatically identifying and extracting Figure and Table elements from PDF documents**
+
+[Installation](#installation) • [Quick Start](#quick-start) • [Features](#features) • [Demo](#demo-results) • [Documentation](#usage)
 
 </div>
 
@@ -14,15 +22,13 @@
 
 ## English
 
-A powerful Python package for automatically identifying and extracting Figure and Table elements from PDF documents.
-
 ### Features
 
-- **Automatic Detection**: Identifies Figures and Tables in PDF documents
-- **Smart Merging**: Combines related elements with their captions
-- **High Quality Output**: Generates clean, merged images
-- **Command Line Interface**: Easy-to-use CLI tool
-- **Batch Processing**: Process multiple PDFs efficiently
+- 🔍 **Automatic Detection**: Identifies Figures and Tables in PDF documents
+- 🎯 **Smart Merging**: Combines related elements with their captions
+- 🎨 **High Quality Output**: Generates clean, merged images
+- 🖥️ **Command Line Interface**: Easy-to-use CLI tool
+- ⚡ **Batch Processing**: Process multiple PDFs efficiently
 
 ### Installation
 
@@ -116,15 +122,13 @@ output_directory/
 
 ## 中文
 
-一个强大的Python包，用于自动识别和提取PDF文档中的图表和表格元素。
-
 ### 功能特性
 
-- **自动检测**: 识别PDF文档中的图表和表格
-- **智能合并**: 将相关元素与其标题合并
-- **高质量输出**: 生成清晰的合并图像
-- **命令行界面**: 易于使用的CLI工具
-- **批量处理**: 高效处理多个PDF文件
+- 🔍 **自动检测**: 识别PDF文档中的图表和表格
+- 🎯 **智能合并**: 将相关元素与其标题合并
+- 🎨 **高质量输出**: 生成清晰的合并图像
+- 🖥️ **命令行界面**: 易于使用的CLI工具
+- ⚡ **批量处理**: 高效处理多个PDF文件
 
 ### 安装
 
@@ -216,6 +220,6 @@ pdf-element-extractor [PDF文件] [选项]
 
 ---
 
-## License / 许可证
+## License
 
-MIT License - see LICENSE file for details. / MIT许可证 - 详情请参阅LICENSE文件。 
+This project is released under the [MIT License](LICENSE). 
