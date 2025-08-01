@@ -182,41 +182,38 @@ analyzer.close()
 
 The PDF Element Extractor generates comprehensive visualizations showing the detected elements. Here are examples from analyzing a research paper:
 
-### Page 1 - Title and Abstract
-![Page 1 Analysis](examples/images/my_paper_page1.png)
+### Table 1 - Sequence Length Distribution
+![Table 1](examples/demo_images/page_3_table_1_merged.png)
 
-*Red borders: Original drawing elements*  
-*Blue borders: Figure regions with Figure annotations*  
-*Orange borders: Table regions with Table annotations*  
-*Green borders: Figure captions*  
-*Orange borders: Table captions*
+### Figure 3 - Model Architecture
+![Figure 3](examples/demo_images/page_4_figure_3_merged.png)
 
-### Page 2 - Introduction
-![Page 2 Analysis](examples/images/my_paper_page2.png)
+### Figure 4 - Training Process
+![Figure 4](examples/demo_images/page_5_figure_4_merged.png)
 
-### Page 3 - Methodology
-![Page 3 Analysis](examples/images/my_paper_page3.png)
+### Figure 5 - Performance Comparison
+![Figure 5](examples/demo_images/page_6_figure_5_merged.png)
 
-### Page 4 - Results and Figures
-![Page 4 Analysis](examples/images/my_paper_page4.png)
+### Figure 6 - Experimental Results
+![Figure 6](examples/demo_images/page_6_figure_6_merged.png)
 
-### Page 5 - Data Analysis
-![Page 5 Analysis](examples/images/my_paper_page5.png)
+### Figure 7 - Detailed Analysis
+![Figure 7](examples/demo_images/page_7_figure_7_merged.png)
 
-### Page 6 - Experimental Setup
-![Page 6 Analysis](examples/images/my_paper_page6.png)
+### Table 2 - Parallel Strategies
+![Table 2](examples/demo_images/page_7_table_2_merged.png)
 
-### Page 7 - Detailed Results
-![Page 7 Analysis](examples/images/my_paper_page7.png)
+### Table 3 - Implementation Details
+![Table 3](examples/demo_images/page_7_table_3_merged.png)
 
-### Page 8 - Comparative Analysis
-![Page 8 Analysis](examples/images/my_paper_page8.png)
+### Figure 8 - Final Results
+![Figure 8](examples/demo_images/page_8_figure_8_merged.png)
 
-### Page 9 - Performance Metrics
-![Page 9 Analysis](examples/images/my_paper_page9.png)
+### Table 5 - Memory Consumption
+![Table 5](examples/demo_images/page_8_table_5_merged.png)
 
-### Page 10 - Statistical Analysis
-![Page 10 Analysis](examples/images/my_paper_page10.png)
+### Table 6 - Chunk Size Impact
+![Table 6](examples/demo_images/page_8_table_6_merged.png)
 </div>
 
 <div id="zh-examples" style="display: none;">
@@ -224,41 +221,38 @@ The PDF Element Extractor generates comprehensive visualizations showing the det
 
 PDF元素提取器生成全面的可视化图像，显示检测到的元素。以下是分析研究论文的示例：
 
-### 第1页 - 标题和摘要
-![Page 1 Analysis](examples/images/my_paper_page1.png)
+### 表格1 - 序列长度分布
+![Table 1](examples/demo_images/page_3_table_1_merged.png)
 
-*红色边框：原始绘图元素*  
-*蓝色边框：带图表标注的图表区域*  
-*橙色边框：带表格标注的表格区域*  
-*绿色边框：图表标题*  
-*橙色边框：表格标题*
+### 图表3 - 模型架构
+![Figure 3](examples/demo_images/page_4_figure_3_merged.png)
 
-### 第2页 - 引言
-![Page 2 Analysis](examples/images/my_paper_page2.png)
+### 图表4 - 训练过程
+![Figure 4](examples/demo_images/page_5_figure_4_merged.png)
 
-### 第3页 - 方法论
-![Page 3 Analysis](examples/images/my_paper_page3.png)
+### 图表5 - 性能对比
+![Figure 5](examples/demo_images/page_6_figure_5_merged.png)
 
-### 第4页 - 结果和图表
-![Page 4 Analysis](examples/images/my_paper_page4.png)
+### 图表6 - 实验结果
+![Figure 6](examples/demo_images/page_6_figure_6_merged.png)
 
-### 第5页 - 数据分析
-![Page 5 Analysis](examples/images/my_paper_page5.png)
+### 图表7 - 详细分析
+![Figure 7](examples/demo_images/page_7_figure_7_merged.png)
 
-### 第6页 - 实验设置
-![Page 6 Analysis](examples/images/my_paper_page6.png)
+### 表格2 - 并行策略
+![Table 2](examples/demo_images/page_7_table_2_merged.png)
 
-### 第7页 - 详细结果
-![Page 7 Analysis](examples/images/my_paper_page7.png)
+### 表格3 - 实现细节
+![Table 3](examples/demo_images/page_7_table_3_merged.png)
 
-### 第8页 - 对比分析
-![Page 8 Analysis](examples/images/my_paper_page8.png)
+### 图表8 - 最终结果
+![Figure 8](examples/demo_images/page_8_figure_8_merged.png)
 
-### 第9页 - 性能指标
-![Page 9 Analysis](examples/images/my_paper_page9.png)
+### 表格5 - 内存消耗
+![Table 5](examples/demo_images/page_8_table_5_merged.png)
 
-### 第10页 - 统计分析
-![Page 10 Analysis](examples/images/my_paper_page10.png)
+### 表格6 - 块大小影响
+![Table 6](examples/demo_images/page_8_table_6_merged.png)
 </div>
 
 ---
